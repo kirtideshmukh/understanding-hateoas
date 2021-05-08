@@ -62,22 +62,22 @@ So here is modified response can look like
             "rel"  : "self"
         },
         { 
-            "href" : "api/messages/1/comments",
+            "href" : "/messages/1/comments",
             "rel"  : "comments"
         },
         { 
-            "href" : "api/messages/1/likes",
+            "href" : "/messages/1/likes",
             "rel"  : "likes"
         },
         { 
-            "href" : "api/messages/1/shares",
+            "href" : "/messages/1/shares",
             "rel"  : "shares"
         }
     ]
 }
 ```
 Way to send URIs in response can differ. The above is one of the JSON forms.
-The rel attribute is part of HTTP specification. Only standard values are allowed for it. You can refer this[link-rel](https://www.iana.org/assignments/link-relations/link-relations.xml).
+The rel attribute is part of HTTP specification. Only standard values are allowed for it. You can refer this [link](https://www.iana.org/assignments/link-relations/link-relations.xml).
 
 ### Reference
  1. [wiki](https://en.wikipedia.org/wiki/HATEOAS)
